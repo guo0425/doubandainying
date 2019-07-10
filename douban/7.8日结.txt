@@ -1,0 +1,29 @@
+1. 动画 transition ===> animate.css
+
+
+        enter-active-class
+        leave-active-class
+
+
+2. 秒杀插件
+   
+
+   https://www.3mooc.com/front/articleinfo/88
+
+
+
+3. 接口调用
+
+豆瓣评分电影api域名：http://t.yushu.im/ 
+最近上映URI:/v2/movie/coming_soon
+热门电影URI:/v2/movie/in_theaters
+top250电影URI:   /v2/movie/top250
+电影详情URI:/v2/movie/subject/
+电影搜索URI:/v2/movie/search
+数据量?start=0&count=10
+例如：想请求热门电影的前20个：
+
+http://t.yushu.im/v2/movie/in_theaters?start=0&count=20
+
+
+
